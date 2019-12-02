@@ -1,0 +1,57 @@
+body {
+  background-color: gray;
+  display: grid;
+  grid-gap: 10px 10px;
+   grid-template-columns:  auto 1fr;
+      grid-template-rows:  auto auto;
+      grid-template-areas:
+        "header header"
+        "main main "
+        "footer footer";
+}
+
+header{
+  background-color:  #e0ebeb;
+  text-align: center;
+  grid-area: header;
+  
+}
+main{
+  background-color:  #e0ebeb;
+  text-align: center;
+  grid-area: main;
+  width: auto;
+  height: auto;
+}
+
+footer{
+  background-color:  #e0ebeb;
+  text-align: center;
+  grid-area: footer;
+
+}
+
+nav{
+  background-color: white;
+  text-align: center;
+    grid-area: nav;
+  width: 100px;
+
+}
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+#tribute-info{
+  
+    text-align: justify;
+  text-indent: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top : 20px;
+
+  
+  
+}
